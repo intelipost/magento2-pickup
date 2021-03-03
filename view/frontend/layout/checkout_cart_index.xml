@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+/*
+ * @package     Intelipost_Pickup
+ * @copyright   Copyright (c) 2019 Intelipost (http://www.intelipost.com.br/)
+ * @author      Israel Guido <israelguido@gmail.com>
+ */
+-->
+
+<page>
+    <body>
+        <referenceContainer name="footer-container">
+            <block class="Intelipost\Pickup\Block\Store" name="intelipost.pickup.store" after="footer" />
+        </referenceContainer>
+    </body>
+</page>
+
